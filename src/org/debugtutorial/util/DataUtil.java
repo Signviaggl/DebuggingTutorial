@@ -13,17 +13,20 @@ public class DataUtil {
 		Person p1 = new Person("Steve", 40, "US");
 		Person p2 = new Person("Martin", 50, "Germany");
 		Person p3 = new Person("Marco", 20, "Netherlands");
+		Person p4 = new Person("Mera Person", 200, "Bharat Bhoomi");
 
 		List personList = new ArrayList();
 		personList.add(p1);
 		personList.add(p2);
 		personList.add(p3);
-		personList.add("Dummy Data");
-		personList.add(new Integer(1));
+		personList.add(p4);
+		//personList.add("Dummy Data");
+		personList.add(new Integer(199));
+		//this.clone();
 		return personList;
 	}
 
-	public static List<Person> getPersonData() {
+	public static List<Person> getTeraMeraPersondata() {
 		System.out.println("getPersonData()... start");
 		Person steve = new Person("Steve", 40, "US");
 		Person personWithNullCountry = new Person(

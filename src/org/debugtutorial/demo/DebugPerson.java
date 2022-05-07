@@ -8,7 +8,7 @@ import org.debugtutorial.util.DataUtil;
 
 public class DebugPerson {
 	public static void main(String[] args) {
-		List<Person> personList = DataUtil.getPersonData();
+		List<Person> personList = DataUtil.getTeraMeraPersondata();
 		System.out.println("personList:" + personList);
 		Map<Integer, Person> personMap = DataUtil.getPersonMap();
 		System.out.println("personMap:" + personMap);
